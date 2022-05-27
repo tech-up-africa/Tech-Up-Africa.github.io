@@ -1,1 +1,1 @@
-# TechUpAfrica.github.io
+# Tech-Up-Africa.github.io
