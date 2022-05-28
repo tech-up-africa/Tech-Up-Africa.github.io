@@ -122,6 +122,10 @@
     color: #fff;
     background-color: gold;
   }
+
+  aside {
+    float: right;
+  }
   #me {
     width: 80%;
     height: 60px;
