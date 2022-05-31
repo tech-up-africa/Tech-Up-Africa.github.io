@@ -126,6 +126,11 @@
   aside {
     float: right;
   }
+
+  .benefits{
+    height:170px;
+    width: 296;
+  }
   #me {
     width: 80%;
     height: 60px;
@@ -467,7 +472,7 @@
     font-weight: 500;
     margin-right: 0.3rem;
   }
-  .inst {
+  .card p {
     font-style: italic;
     color: gold;
   }
@@ -870,13 +875,14 @@
       flex-wrap: wrap;
     }
     .image__area {
-      order: 1;
-      margin-top: 6rem;
+      order: 2;
+      margin-top: 2rem;
       margin-bottom: 1.5rem;
     }
     .salut_area {
+      margin-top: 6rem;
       padding: 0 0.6rem;
-      order: 2;
+      order: 1;
     }
     .image__container {
       height: 250px;
