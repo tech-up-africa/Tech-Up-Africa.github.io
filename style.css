@@ -44,7 +44,9 @@
     width: 41.66%;
   }
   .col-6 {
-    width: 50%;
+    width: 40%;
+    flex-wrap: wrap;
+    flex:auto;
   }
   .col-7 {
     width: 58.33%;
@@ -123,14 +125,19 @@
     background-color: gold;
   }
 
-  aside {
-    float: right;
+  .apply span {
+    border: 1px solid gold;
+    border-radius: 10px;
+    padding: 12px 18px;
+    text-align: center;
+    color: #fff;
   }
 
-  .benefits{
-    height:170px;
-    width: 296;
+  .apply:hover {
+    background-color:rgba(255, 217, 0, 0.816);
+    color: white;
   }
+  
   #me {
     width: 80%;
     height: 60px;
@@ -153,7 +160,7 @@
   #closebtn {
     display: none;
   }
-  .nav__item li a {
+  .nav__item a {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.1rem;
@@ -161,7 +168,7 @@
     line-height: 1.4rem;
     -webkit-transition: color 0.3s ease;
   }
-  .nav__item li a:hover {
+  .nav__item a:hover {
     color: gold;
   }
   #bkg{
@@ -443,11 +450,7 @@
     padding-left: 20%;
   }
   .experience__section {
-    padding: 0;
-    background-image: url(../assets/images/comp2.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    display: flex;
   }
   .experience__section__cont {
     padding: 3rem 0;
@@ -472,7 +475,7 @@
     font-weight: 500;
     margin-right: 0.3rem;
   }
-  .card p {
+  #faq p {
     font-style: italic;
     color: gold;
   }
